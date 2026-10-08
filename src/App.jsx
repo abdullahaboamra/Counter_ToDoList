@@ -1,14 +1,15 @@
-import Navbar from "./components/Navbar";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Student from'./Components/Student';
 import "./App.css";
 
 export default function App() {
   return (
-    <div className="container">
-      <Navbar title="ReactFacts" />
-      <Main />
-      <Footer />
-    </div>
+    <>
+    <Student name="Spongebob" age={30} isStudent={false}/>
+    <Student name="Patrick" age={42} isStudent={true}/>
+    <Student name="Squidward" age={50} isStudent={false}/>
+    <Student name="Sandy" age={27} isStudent={true}/>
+    <Student/>
+    <Student name="Larry"/>
+    </>
   );
 }

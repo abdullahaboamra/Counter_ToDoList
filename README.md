@@ -1,16 +1,95 @@
-# React + Vite
+# My App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern frontend application built with React and Vite, designed for fast development, clean structure, and an efficient user experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a React-based web application powered by Vite, offering a lightweight and high-performance development workflow. It is suitable for building responsive user interfaces, rapid prototyping, and scalable frontend features.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fast development environment with Vite
+- Component-based UI architecture using React
+- Clean and maintainable project structure
+- Modern CSS styling support
+- Ready-to-use production build setup
+- Linting support for code quality
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Project Structure
+
+```bash
+my-app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── Components/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── ...
+├── index.html
+├── package.json
+├── vite.config.js
+├── README.md
+└── ...
+```
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- Node.js (v18 or later)
+- npm or yarn
+
+### Installation
+
+```bash
+npm install
+```
+
+### Run the application
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal to view the app in the browser.
+
+## Available Scripts
+
+```bash
+npm run dev
+npm run build
+npm run preview
+npm run lint
+```
+
+- `npm run dev` starts the development server
+- `npm run build` creates a production build
+- `npm run preview` previews the production build locally
+- `npm run lint` checks the code for common issues
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The compiled project will be generated in the `dist` directory and can be deployed to any static hosting platform.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For questions or contributions, please contact the project maintainer.
